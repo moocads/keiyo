@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { MapPin } from "lucide-react"
+import { Mail, MapPin } from "lucide-react"
 export function Footer() {
   return (
     <footer className="py-12 bg-background border-t border-border">
@@ -15,6 +15,9 @@ export function Footer() {
             />
             <a href="https://maps.app.goo.gl/kSoWAryjX19u2nqk8" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
               <MapPin className="w-4 h-4 text-secondary" />〒188-0014 東京都西東京市芝久保町4-15-57 U・Kコーポ201
+            </a>
+            <a href="mailto:contact@keiyojp.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
+              <Mail className="w-4 h-4 text-secondary" />contact@keiyojp.com
             </a>
           </div>
           
